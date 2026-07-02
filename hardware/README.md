@@ -66,7 +66,7 @@ in a future update.
 
 HandUMI assembly is organized around three modules:
 
-1. Finger-worn body and thumb/index cradle.
+1. Finger-worn body and thumb/index-middle finger cradle.
 2. Camera and tracking mounts.
 3. Detachable robot-specific gripper tip.
 

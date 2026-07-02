@@ -3,8 +3,10 @@
 A hand-worn, open-source variant of the Universal Manipulation Interface (UMI)
 for collecting bimanual manipulation data without a robot in the loop, designed
 for robot arms with parallel grippers. HandUMI mounts on the operator's thumb
-and index finger, opens and closes with a natural pinch, and uses
+and index/middle fingers, opens and closes with a natural pinch, and uses
 interchangeable gripper tips to target different parallel-jaw robot grippers.
+One unit costs roughly $110 in parts, plus the VR headset of the user's
+preference (PICO 4 Ultra or Meta Quest 3).
 
 <p align="center">
   <img src="media/HandUMI.jpg" alt="HandUMI worn on the hand, with PICO tracker and wrist-camera mounts" width="720">
@@ -17,7 +19,7 @@ interchangeable gripper tips to target different parallel-jaw robot grippers.
 ## Quick Links
 
 - [Hardware](hardware/README.md)
-- [STL files](hardware/stl/)
+- [STL files](hardware/STL/)
 - [Bill of Materials](bom/README.md)
 - [Software](software/README.md)
 
@@ -25,7 +27,8 @@ interchangeable gripper tips to target different parallel-jaw robot grippers.
 
 Each demonstration records the core signals needed for later deployment:
 
-- SE(3) wrist pose from a PICO 4 Ultra headset and wrist trackers.
+- SE(3) wrist pose from a VR headset (PICO 4 Ultra or Meta Quest 3) and wrist
+  trackers.
 - Gripper width from a Feetech servo encoder.
 - Wrist-view video from a small camera mounted on the device.
 
@@ -48,7 +51,8 @@ so the recorded width follows the mechanical opening frame by frame.
 
 ## Motion Tracking
 
-Pose comes from a PICO 4 Ultra headset and two wrist trackers. The headset
+Pose comes from a VR headset and two wrist trackers. Depending on the user's
+preference, the headset can be a PICO 4 Ultra or a Meta Quest 3. The headset
 provides the world frame, while the wrist trackers provide each hand trajectory.
 This avoids an offline camera SLAM step and keeps the wrist camera focused on
 visual observation.
@@ -56,14 +60,15 @@ visual observation.
 ## Wrist-View Camera
 
 The wrist camera provides the observation used during training and deployment.
-The reference camera class is a compact 32 x 32 mm 1080p UVC module with a wide
-angle lens. A GoPro or Insta360 body can be used when a different viewpoint or
-360-degree capture is needed.
+HandUMI uses the fisheye USB camera listed in the
+[Bill of Materials](bom/README.md), a compact UVC module with a wide field of
+view.
 
 ## Hand-Fit Design
 
 The finger cradle geometry was designed from a 3D scan of the operator's hand.
-That scan is used as a CAD reference surface for the thumb and index rings, and
+That scan is used as a CAD reference surface for the thumb and index/middle
+finger rings, and
 the same workflow can be repeated to fit another operator.
 
 <p align="center">
@@ -78,6 +83,14 @@ Trossen, and TRLC-DK1.
 
 Any robot with a comparable parallel-jaw gripper can be supported by designing
 and printing a matching tip.
+
+## Bill of Materials
+
+The full bill of materials is available in [`bom/README.md`](bom/README.md).
+It lists every part needed to build one HandUMI unit — mechanical, structural,
+and electronic — with purchase links (Amazon and Alibaba) and per-unit prices.
+One unit comes to roughly $110 in parts; a bimanual pair to roughly $221. The
+VR headset used for the shared tracking layer is a separate one-time purchase.
 
 ## Status
 

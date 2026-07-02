@@ -1,37 +1,47 @@
 # Bill of Materials
 
-Prices are in USD and are early reference estimates. The tracking layer is
-shared across sessions and is not duplicated per HandUMI pair.
+## Hardware Required for One HandUMI (Single Unit)
 
-## One Pair of HandUMI Data Collectors
+Hardware needed to build one HandUMI unit. Prices use the unit cost from the
+linked listing, multiplied by the quantity needed.
 
-| Part | Qty | Price | Shipping | Notes |
-|---|---:|---:|---:|---|
-| PLA filament, 1 kg | 1 | 18.99 | 0.00 | Printed parts |
-| Wide-angle UVC USB camera, 130 deg, 32 x 32 mm | 2 | 37.98 | 16.60 | Wrist-view video |
-| Feetech servo with encoder | 2 | 27.98 | 0.00 | Gripper-width sensing |
-| Microcontroller | 2 | 21.98 | 0.00 | Servo readout / trigger |
-| MR83ZZ bearing | 1 | 8.99 | 15.49 | Mechanism bearing |
-| MR63ZZ bearing | 4 | 13.19 | 15.44 | Mechanism bearings |
-| LM4 linear bearing | 4 | 7.49 | 15.55 | Linear motion |
-| 4 mm axle | 2 | 10.79 | 16.85 | Mechanism axle |
-| M3 screws and nuts | 6 + 8 | 23.97 | 18.35 | M3 x 14 mm and M3 x 12 mm |
-| Hook-and-loop fastener | 2 | 9.99 | 16.52 | Hand attachment |
+### Mechanical & Structural
 
-## One Pair of HandUMI Deployment Units
+| Part | Qty Needed | Unit Price | Link | Total (USD)* |
+|---|---|---|---|---:|
+| PLA Filament (only ~200 g needed per unit) | 0.2 kg | $12.59 / kg | [Amazon](https://www.amazon.com/ELEGOO-Filament-Dimensional-Accuracy-Cardboard/dp/B0BM739JRF) | $2.52 |
+| Rolling Bearing | 4 | $13.29 / 20 pcs | [Amazon](https://www.amazon.com/uxcell-3mmx6mmx2-5mm-Shielded-Miniature-Bearing/dp/B075CMRGY6) | $2.66 |
+| Linear Bearing | 4 | $7.49 / 4 pcs | [Amazon](https://www.amazon.com/uxcell-LM6UU-Linear-Bearings-Length/dp/B07H95CWTX) | $7.49 |
+| Axle (135 mm) | 1 rod | $11.99 / 10 pcs | [Amazon](https://www.amazon.com/dp/B08Z8JGZZC) | $1.20 |
+| M3 Hardware Kit (750 pcs) | 5 total (1 @ M3x20mm + 2 @ M3x12mm + 2 @ M3x15mm*) | $9.99 / 750 pcs | [Amazon](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0RJV3FCBN) | $0.07 |
+| Velcro Tape | 50 cm | $15.78 / 500 cm | [Amazon](https://www.amazon.sg/Self-Adhesive-Velcro-Metres-Black-Fleece/dp/B08FBC7H5K) | $1.58 |
+| M2 Hardware Kit (660 pcs) | 16 total (8 screws + 8 nuts) | $7.99 / 660 pcs | [Amazon](https://www.amazon.com/WZHUIDA-Screws-Assortment-M2x4mm-Washers/dp/B0F93XL3WK) | $0.19 |
+| **Subtotal** | | | | **$15.70** |
 
-| Part | Qty | Price | Shipping | Notes |
-|---|---:|---:|---:|---|
-| PLA filament, 1 kg | 1 | 18.99 | 0.00 | Printed parts |
-| Wide-angle UVC USB camera, 130 deg, 32 x 32 mm | 2 | 37.98 | 16.60 | Wrist-view camera |
-| USB-C to USB-A cable | 2 | 31.98 | 15.86 | Camera connection |
+### Electronics
 
-## Shared Tracking Layer
+| Part | Qty Needed | Unit Price | Link | Total (USD)* |
+|---|---|---|---|---:|
+| Fisheye USB Camera | 1 | $56.99 | [Amazon](https://www.amazon.com/Arducam-Computer-Fisheye-Microphone-Windows/dp/B07ZS75KZR) | $56.99 |
+| Feetech Servomotor | 1 | $13.89 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | $13.89 |
+| Power Supply | 1 | $10.00 | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV) | $10.00 |
+| Feetech Servo Controller | 1 | $10.60 | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK) | $10.60 |
+| USB-C Cable | 1 | $7.00 / 2 pcs | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2) | $3.50 |
+| **Subtotal** | | | | **$94.98** |
 
-| Part | Qty | Notes |
-|---|---:|---|
-| PICO 4 Ultra headset | 1 | Shared world frame |
-| Wrist tracker | 2 | One per hand |
+### Total
 
-A GoPro or Insta360 camera can replace the UVC module when a specific viewpoint
-or 360-degree capture is needed.
+| | |
+|---|---:|
+| **GRAND TOTAL (approx.)** | **$110.68** |
+| If building a pair (2 units) | $221.37 |
+
+\*Unit Price reflects the real per-unit cost from the linked listing (e.g. pack
+price ÷ pack quantity); Total = Unit Price × Qty Needed. Prices are early
+reference estimates and may vary with shipping, region, and availability.
+Grayed-out, italicized items are pending a confirmed link and/or unit price and
+are excluded from subtotals and the grand total.
+
+**Note:** this BOM does not include the VR headset (e.g. PICO 4 Ultra /
+Meta Quest) used for the shared tracking layer. That is a separate, one-time
+purchase, not duplicated per HandUMI unit.
