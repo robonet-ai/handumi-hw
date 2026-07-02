@@ -1,10 +1,10 @@
 # HandUMI
 
 A hand-worn, open-source variant of the Universal Manipulation Interface (UMI)
-for collecting bimanual manipulation data without a robot in the loop. HandUMI
-mounts on the operator's thumb and index finger, opens and closes with a natural
-pinch, and uses interchangeable gripper tips to target different parallel-jaw
-robot grippers.
+for collecting bimanual manipulation data without a robot in the loop, designed
+for robot arms with parallel grippers. HandUMI mounts on the operator's thumb
+and index finger, opens and closes with a natural pinch, and uses
+interchangeable gripper tips to target different parallel-jaw robot grippers.
 
 <p align="center">
   <img src="media/HandUMI.jpg" alt="HandUMI worn on the hand, with PICO tracker and wrist-camera mounts" width="720">

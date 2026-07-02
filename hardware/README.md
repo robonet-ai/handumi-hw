@@ -9,16 +9,27 @@ HandUMI has two hardware configurations that share the same core printed frame:
 - Deployment unit: mounted on a robot end-effector with matching camera
   viewpoint and gripper-tip geometry.
 
-## STL Layout
+## Folder Layout
 
-All printable files live in `stl/`:
+Printable files live in `STL/`, and editable CAD sources for the gripper tips
+live in `STEP/`:
 
 ```text
-stl/
-|-- common/         # Parts shared by both hands
+STL/
 |-- left_handumi/   # Left-hand HandUMI parts
 |-- right_handumi/  # Right-hand HandUMI parts
-`-- gripper_tip/    # Robot-specific detachable tips
+`-- gripper_tips/   # Robot-specific detachable tips, one folder per robot
+    |-- AgileX-Piper/
+    |-- ARX-X5-2023/
+    |-- Dream-Gripper/
+    `-- Trossen-WidowXAI/
+
+STEP/
+`-- gripper_tips/   # STEP sources for the tips, for custom adjustments
+    |-- AgileX-Piper/
+    |-- ARX-X5-2023/
+    |-- Dream-Gripper/
+    `-- Trossen-WidowX-AI/
 ```
 
 ## Modular Gripper Tip
@@ -27,25 +38,29 @@ HandUMI is modular: the body, camera mount, servo, and tracking mount stay the
 same, while the detachable gripper tip changes to match the target robot
 gripper.
 
-Current target tip filenames:
+Currently supported grippers:
 
-- `arx-gripper-tip.stl`
-- `trossen-gripper-tip.stl`
-- `trlc-dk1-gripper-tip.stl`
+- AgileX Piper (`STL/gripper_tips/AgileX-Piper/`)
+- ARX X5 2023 (`STL/gripper_tips/ARX-X5-2023/`)
+- Dream Gripper TRLC (`STL/gripper_tips/Dream-Gripper/`)
+- Trossen WidowX AI (`STL/gripper_tips/Trossen-WidowXAI/`)
 
-Place all robot-specific tips directly in `stl/gripper_tip/`.
+Any robot with a comparable parallel-jaw gripper can be supported by designing
+and printing a matching tip. Start from the STEP sources in
+`STEP/gripper_tips/` if you need to adjust a tip or adapt it to a new gripper.
 
 ## Print Guide
 
 - PLA is the default material for early builds.
-- Print the common body parts from `stl/common/`.
-- Print the hand-specific parts from `stl/left_handumi/` or
-  `stl/right_handumi/`.
-- Print the deployment gripper tip that matches your robot from
-  `stl/gripper_tip/`.
+- For a left HandUMI, print the complete `STL/left_handumi/` folder.
+- For a right HandUMI, print the complete `STL/right_handumi/` folder.
+- Depending on your robotic arm with a parallel gripper, print the
+  corresponding gripper tips from `STL/gripper_tips/`. If you want to make
+  adjustments, modify the STEP sources in `STEP/gripper_tips/` and export your
+  own STLs.
 
 Detailed orientation, support, layer height, and infill settings will be added
-with the STL release.
+in a future update.
 
 ## Assembly
 
