@@ -96,7 +96,17 @@ VR headset used for the shared tracking layer is a separate one-time purchase.
 
 Open-source release in progress.
 
-## Related Work
+## References
 
-- [Universal Manipulation Interface (UMI)](https://umi-gripper.github.io/)
-- [DexUMI](https://dex-umi.github.io/)
+UMI pioneered in-the-wild data collection without a robot in the loop, and
+YUBI brought that idea to a finger-driven V-shaped gripper. HandUMI covers the
+piece neither of them does: hand-worn data collection for robot arms with
+parallel grippers.
+
+- Cheng Chi, Zhenjia Xu, Chuer Pan, Eric Cousineau, Benjamin Burchfiel, Siyuan
+  Feng, Russ Tedrake, and Shuran Song. "Universal Manipulation Interface:
+  In-The-Wild Robot Teaching Without In-The-Wild Robots." *Robotics: Science
+  and Systems (RSS)*, 2024. [https://umi-gripper.github.io/](https://umi-gripper.github.io/)
+- Takehiko Ohkawa, Jumpei Arima, Yuki Noguchi, et al. "YUBI: Yielding
+  Universal Bidigital Interface for Bimanual Dexterous Manipulation at Scale."
+  *arXiv:2606.10244*, 2026. [https://yubi.airoa.io/](https://yubi.airoa.io/)
