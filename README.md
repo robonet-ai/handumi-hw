@@ -9,11 +9,8 @@ One unit costs roughly $110 in parts, plus the VR headset of the user's
 preference (PICO 4 Ultra or Meta Quest 3).
 
 <p align="center">
-  <img src="media/HandUMI.jpg" alt="HandUMI worn on the hand, with PICO tracker and wrist-camera mounts" width="720">
-</p>
-
-<p align="center">
-  <img src="media/hand_umi_real_demo.gif" alt="HandUMI demo, worn on the hand and opening/closing by pinch" width="640">
+  <img src="media/HandUMI.png" alt="HandUMI worn on the hand, with PICO tracker and wrist-camera mounts" width="444">
+  <img src="media/hand_umi_real_demo.gif" alt="HandUMI demo, worn on the hand and opening/closing by pinch" width="158">
 </p>
 
 ## Quick Links
