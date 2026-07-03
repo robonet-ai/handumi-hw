@@ -11,8 +11,8 @@ HandUMI has two hardware configurations that share the same core printed frame:
 
 ## Folder Layout
 
-Printable files live in `STL/`, and editable CAD sources for the gripper tips
-live in `STEP/`:
+Printable files live in `STL/`, and editable CAD sources for every part live
+in `STEP/`:
 
 ```text
 STL/
@@ -22,14 +22,18 @@ STL/
     |-- AgileX-Piper/
     |-- ARX-X5-2023/
     |-- Dream-Gripper/
-    `-- Trossen-WidowXAI/
+    |-- Trossen-WidowXAI/
+    `-- UMI-Gripper/
 
 STEP/
+|-- left_handumi/   # STEP sources for the left-hand parts
+|-- right_handumi/  # STEP sources for the right-hand parts
 `-- gripper_tips/   # STEP sources for the tips, for custom adjustments
     |-- AgileX-Piper/
     |-- ARX-X5-2023/
     |-- Dream-Gripper/
-    `-- Trossen-WidowX-AI/
+    |-- Trossen-WidowXAI/
+    `-- UMI-Gripper/
 ```
 
 ## Modular Gripper Tip
@@ -44,10 +48,14 @@ Currently supported grippers:
 - ARX X5 2023 (`STL/gripper_tips/ARX-X5-2023/`)
 - Dream Gripper TRLC (`STL/gripper_tips/Dream-Gripper/`)
 - Trossen WidowX AI (`STL/gripper_tips/Trossen-WidowXAI/`)
+- UMI Gripper (`STL/gripper_tips/UMI-Gripper/`)
 
 Any robot with a comparable parallel-jaw gripper can be supported by designing
 and printing a matching tip. Start from the STEP sources in
 `STEP/gripper_tips/` if you need to adjust a tip or adapt it to a new gripper.
+STEP sources for the full left/right bodies are also available in
+`STEP/left_handumi/` and `STEP/right_handumi/` for custom modifications
+(e.g. refitting the finger cradles to another operator's hand).
 
 ## Print Guide
 

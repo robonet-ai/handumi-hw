@@ -39,8 +39,6 @@ linked listing, multiplied by the quantity needed.
 \*Unit Price reflects the real per-unit cost from the linked listing (e.g. pack
 price ÷ pack quantity); Total = Unit Price × Qty Needed. Prices are early
 reference estimates and may vary with shipping, region, and availability.
-Grayed-out, italicized items are pending a confirmed link and/or unit price and
-are excluded from subtotals and the grand total.
 
 **Note:** this BOM does not include the VR headset (e.g. PICO 4 Ultra /
 Meta Quest) used for the shared tracking layer. That is a separate, one-time

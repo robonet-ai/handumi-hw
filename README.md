@@ -13,7 +13,7 @@ preference (PICO 4 Ultra or Meta Quest 3).
 </p>
 
 <p align="center">
-  <img src="media/HandUMI-demo.gif" alt="HandUMI demo, worn on the hand and opening/closing by pinch" width="640">
+  <img src="media/hand_umi_real_demo.gif" alt="HandUMI demo, worn on the hand and opening/closing by pinch" width="640">
 </p>
 
 ## Quick Links
@@ -54,6 +54,9 @@ so the recorded width follows the mechanical opening frame by frame.
 Pose comes from a VR headset and two wrist trackers. Depending on the user's
 preference, the headset can be a PICO 4 Ultra or a Meta Quest 3. The headset
 provides the world frame, while the wrist trackers provide each hand trajectory.
+Each HandUMI includes a printed controller/tracker support (the
+`controller_support` parts in `hardware/STL/left_handumi/` and
+`hardware/STL/right_handumi/`) that mounts the tracker on the wrist.
 This avoids an offline camera SLAM step and keeps the wrist camera focused on
 visual observation.
 
@@ -78,8 +81,9 @@ the same workflow can be repeated to fit another operator.
 ## Modular Gripper Tips
 
 The body, camera mount, servo, and tracker mounting stay the same. To target a
-new robot, only the detachable gripper tip changes. Current target tips are ARX,
-Trossen, and TRLC-DK1.
+new robot, only the detachable gripper tip changes. Current target tips are
+AgileX Piper, ARX X5 2023, Dream Gripper (TRLC), Trossen WidowX AI, and the
+original UMI gripper.
 
 Any robot with a comparable parallel-jaw gripper can be supported by designing
 and printing a matching tip.
