@@ -16,10 +16,6 @@ interchangeable gripper tips to target different parallel-jaw robot grippers.
 One unit costs roughly $110 in parts, plus the VR headset of the user's
 preference (PICO 4 Ultra or Meta Quest 3).
 
-<p align="center">
-  <img src="media/HandUMI.png" alt="HandUMI worn on the hand, with PICO tracker and wrist-camera mounts" width="444">
-</p>
-
 ## Why Teleoperation Is Not Scalable?
 
 Traditional leader-follower teleoperation is expensive and lab-constrained.
