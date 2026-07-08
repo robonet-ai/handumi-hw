@@ -66,8 +66,8 @@ and printing a matching tip.
 
 Each demonstration records the core signals needed for later deployment:
 
-- SE(3) wrist pose from a VR headset (PICO 4 Ultra or Meta Quest 3) and wrist
-  trackers.
+- SE(3) wrist pose from a VR headset (PICO 4 Ultra or Meta Quest 3) and its
+  controllers.
 - Gripper width from a Feetech servo encoder.
 - Wrist-view video from a small camera mounted on the device.
 
@@ -79,12 +79,12 @@ so the recorded width follows the mechanical opening frame by frame.
 
 ## Motion Tracking
 
-Pose comes from a VR headset and two wrist trackers. Depending on the user's
+Pose comes from a VR headset and its two controllers. Depending on the user's
 preference, the headset can be a PICO 4 Ultra or a Meta Quest 3. The headset
-provides the world frame, while the wrist trackers provide each hand trajectory.
-Each HandUMI includes a printed controller/tracker support (the
+provides the world frame, while the controllers provide each hand trajectory.
+Each HandUMI includes a printed controller support (the
 `controller_support` parts in `hardware/STL/left_handumi/` and
-`hardware/STL/right_handumi/`) that mounts the tracker on the wrist.
+`hardware/STL/right_handumi/`) that mounts the controller on the wrist.
 This avoids an offline camera SLAM step and keeps the wrist camera focused on
 visual observation.
 
