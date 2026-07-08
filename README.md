@@ -156,10 +156,9 @@ arms with parallel-jaw grippers.
 
 ## Contributing
 
-This project is under active development, and contributions are welcome. Feel
-free to open an issue or a pull request for bugs, improvements, or new gripper
-tips, or to open an issue just to ask a question about the hardware or
-software.
+This project is under active development, and contributions are welcome. Please
+read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request for
+bugs, improvements, documentation, BOM updates, or new gripper tips.
 
 This field still has plenty of unsolved problems, and I'm confident the
 open-source community can contribute a great deal toward getting robots to do
