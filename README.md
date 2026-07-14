@@ -2,6 +2,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
+  <a href="https://github.com/robonet-ai/handumi-sw"><img src="https://img.shields.io/badge/Software-handumi--sw-4c8bf5.svg" alt="HandUMI software"></a>
+  <a href="https://robonet-ai.github.io/handumi-sw/"><img src="https://img.shields.io/badge/Docs-GitHub_Pages-AF0000.svg" alt="HandUMI documentation on GitHub Pages"></a>
 </p>
 
 <p align="center">
