@@ -11,7 +11,7 @@ linked listing, multiplied by the quantity needed.
 |---|---|---|---|---:|
 | PLA Filament (only ~200 g needed per unit) | 0.2 kg | $12.59 / kg | [Amazon](https://www.amazon.com/ELEGOO-Filament-Dimensional-Accuracy-Cardboard/dp/B0BM739JRF) | $2.52 |
 | Rolling Bearing | 4 | $13.29 / 20 pcs | [Amazon](https://www.amazon.com/uxcell-3mmx6mmx2-5mm-Shielded-Miniature-Bearing/dp/B075CMRGY6) | $2.66 |
-| Linear Bearing | 4 | $7.49 / 4 pcs | [Amazon]([https://www.amazon.com/uxcell-LM6UU-Linear-Bearings-Length/dp/B07H95CWTX](https://www.amazon.com/dp/B0FK5PN431?smid=A35BFBRDRD3RNK&ref_=chk_typ_imgToDp&th=1) | $7.49 |
+| Linear Bearing | 4 | $7.49 / 4 pcs | [Amazon](https://www.amazon.com/dp/B0FK5PN431?smid=A35BFBRDRD3RNK&ref_=chk_typ_imgToDp&th=1) | $7.49 |
 | Axle (135 mm) | 1 rod | $11.99 / 10 pcs | [Amazon](https://www.amazon.com/dp/B08Z8JGZZC) | $1.20 |
 | M3 Hardware Kit (750 pcs) | 5 total (1 @ M3x20mm + 2 @ M3x12mm + 2 @ M3x15mm*) | $9.99 / 750 pcs | [Amazon](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0RJV3FCBN) | $0.07 |
 | Velcro Tape | 50 cm | $15.78 / 500 cm | [Amazon](https://www.amazon.sg/Self-Adhesive-Velcro-Metres-Black-Fleece/dp/B08FBC7H5K) | $1.58 |
