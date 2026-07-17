@@ -1,4 +1,4 @@
-# HandUMI
+# HandUMI - Hardware
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="media/cover-handumi.png" alt="HandUMI - A 8x cheaper way to collect data for bimanual robots" width="800">
+  <img src="media/cover-handumi.png" alt="HandUMI - An 8x cheaper way to collect data for bimanual robots" width="800">
 </p>
 
 A hand-worn, open-source variant of the Universal Manipulation Interface (UMI)
@@ -17,6 +17,10 @@ and index/middle fingers, opens and closes with a natural pinch, and uses
 interchangeable gripper tips to target different parallel-jaw robot grippers.
 One unit costs roughly $110 in parts, plus the VR headset of the user's
 preference (PICO 4 Ultra or Meta Quest 3).
+
+HandUMI demonstrations are robot-agnostic: collect the data once with the
+wearable hardware, then use the [HandUMI software](https://github.com/robonet-ai/handumi-sw)
+to retarget it across different bimanual arms with parallel grippers.
 
 ## Why Teleoperation Is Not Scalable?
 
@@ -127,7 +131,8 @@ VR headset used for the shared tracking layer is a separate one-time purchase.
 - [Hardware](hardware/README.md)
 - [STL files](hardware/STL/)
 - [Bill of Materials](bom/README.md)
-- [Software](software/README.md)
+- [Software](https://github.com/robonet-ai/handumi-sw)
+- [Documentation](https://robonet-ai.github.io/handumi-sw/)
 
 ## Hand-Fit Design
 
