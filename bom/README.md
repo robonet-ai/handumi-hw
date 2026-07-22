@@ -14,9 +14,9 @@ linked listing, multiplied by the quantity needed.
 | Linear Bearing | 4 | $7.49 / 4 pcs | [Amazon](https://www.amazon.com/dp/B0FK5PN431?smid=A35BFBRDRD3RNK&ref_=chk_typ_imgToDp&th=1) | $7.49 |
 | Axle (135 mm) | 1 rod | $11.99 / 10 pcs | [Amazon](https://www.amazon.com/dp/B08Z8JGZZC) | $1.20 |
 | M3 Hardware Kit (750 pcs) | 5 total (1 @ M3x20mm + 2 @ M3x12mm + 2 @ M3x15mm*) | $9.99 / 750 pcs | [Amazon](https://www.amazon.com/Fgruh-750PCS-Assortment-Washers-Assorted/dp/B0RJV3FCBN) | $0.07 |
-| Velcro Tape | 50 cm | $15.78 / 500 cm | [Amazon](https://www.amazon.sg/Self-Adhesive-Velcro-Metres-Black-Fleece/dp/B08FBC7H5K) | $1.58 |
+| Velcro Tape | 4 | $13.99 / 75 pcs | [Walmart](https://www.walmart.com/ip/NavePoint-6-Inch-Hook-and-Loop-Reusable-Strap-Cable-Cord-Wire-Ties-75-Pack-White/180238793?utm_medium=feed&utm_source=chatgpt.com&oppcref=3c5b1ed8-d1c5-437e-8fa0-d5f7191d1d12) | $0.75 |
 | M2 Hardware Kit (660 pcs) | 16 total (8 screws + 8 nuts) | $7.99 / 660 pcs | [Amazon](https://www.amazon.com/WZHUIDA-Screws-Assortment-M2x4mm-Washers/dp/B0F93XL3WK) | $0.19 |
-| **Subtotal** | | | | **$15.70** |
+| **Subtotal** | | | | **$14.88** |
 
 ### Electronics
 
@@ -33,8 +33,8 @@ linked listing, multiplied by the quantity needed.
 
 | | |
 |---|---:|
-| **GRAND TOTAL (approx.)** | **$110.68** |
-| If building a pair (2 units) | $221.37 |
+| **GRAND TOTAL (approx.)** | **$109.86** |
+| If building a pair (2 units) | $219.72 |
 
 \*Unit Price reflects the real per-unit cost from the linked listing (e.g. pack
 price ÷ pack quantity); Total = Unit Price × Qty Needed. Prices are early
